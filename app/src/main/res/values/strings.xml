@@ -61,4 +61,25 @@
         <item>https://b.zmtcdn.com/data/pictures/1/18568251/74d4532cc8e3da5b4f3f419f6c3a3425.jpg</item>
         <item>https://b.zmtcdn.com/data/pictures/0/7402390/614dada8eddf511c376ac2989f6a5410.jpg</item>
     </string-array>
+
+
+    <string name="best_place">Best Place for Buka Puasa</string>
+    <string name="place">36 Places</string>
+    <string name="gather">Gather around with your loved ones in these best places for buka puasa</string>
+
+    <string name="gurih">Gurih 7</string>
+    <string name="rate">4.3</string>
+    <string name="jenis">CASUAL DINING - SUNDA, JAWA, INDONESIA</string>
+    <string name="alamat1">Jl. Raya Pajajaran No. 102, Bogor Utara, Bogor 16153</string>
+    <string name="buka">- Buka pada jam 10 pagi</string>
+    <string name="direction">Directions</string>
+    <string name="menu">Menus</string>
+    <string name="review">Reviews(848)</string>
+    <string name="photo">Photos(372)</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="been_there">Been There</string>
+    <string name="share">Share</string>
+    <string name="add_review">Add Review</string>
+    <string name="rating">Rate this place</string>
+
 </resources>

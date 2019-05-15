@@ -10,15 +10,18 @@
  <ImageView
      android:id="@+id/imageHeader"
      android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:src="@mipmap/ic_launcher" />
+     android:layout_height="100dp"
+     android:src="@drawable/gambar2"
+     android:scaleType="fitXY"/>
 
  <TextView
-     android:id="@+id/text_judul"
+     android:id="@+id/text_judul2"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:layout_gravity="center"
-     android:text="Best Place for Buka Puasa"
+     android:textStyle="bold"
+     android:textColor="@color/hitam"
+     android:text="@string/best_place"
      android:layout_marginTop="8dp"/>
 
  <TextView
@@ -26,7 +29,7 @@
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:layout_gravity="center"
-     android:text="36 Places"
+     android:text="@string/place"
      android:layout_marginTop="8dp"/>
 
  <TextView
@@ -34,7 +37,7 @@
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:layout_gravity="center"
-     android:text="Gather around with your loved ones in these best places for buka puasa"
+     android:text="@string/gather"
      android:layout_marginTop="8dp"
      android:layout_marginLeft="16dp"
      android:layout_marginRight="16dp"/>

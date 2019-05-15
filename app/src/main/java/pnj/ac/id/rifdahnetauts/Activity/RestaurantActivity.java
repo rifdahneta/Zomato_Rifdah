@@ -32,8 +32,6 @@ public class RestaurantActivity extends AppCompatActivity {
 
 
     void initData() {
-
-
         String[] nama_restaurant = res.getStringArray(R.array.nama_restaurant);
         String[] nama_lokasi = res.getStringArray(R.array.nama_lokasi);
         String[] harga = res.getStringArray(R.array.harga);
@@ -47,6 +45,8 @@ public class RestaurantActivity extends AppCompatActivity {
             model.setImageURL(url_restaurant[i]);
             adapter.add(model);
         }
+
+
         adapter.notifyDataSetChanged();
     }
 

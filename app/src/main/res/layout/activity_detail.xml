@@ -1,13 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.DetailActivity">
+    tools:context=".Activity.DetailActivity"
+    android:orientation="vertical">
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="200sp"
+     android:src = "@drawable/gambar1"
+     android:scaleType="fitXY"
+     />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gurih"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate"
+                android:background="@drawable/background"
+                android:textColor="@color/putihabu"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"/>
+
+        </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/jenis"
+        />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat1"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@color/hitam"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buka"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@color/hitam"/>
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/abu" />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HAAAALLLOO"/>
-</android.support.constraint.ConstraintLayout>
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direction"
+            android:textColor="@color/hijau"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            android:textColor="@color/hijau"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review"
+            android:textColor="@color/hijau"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photo"
+            android:textColor="@color/hijau"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/abu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:drawableTop="@drawable/bookmark"
+                android:text="@string/bookmark"
+                android:textColor="@color/hitam"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:drawableTop="@drawable/placeholder"
+                android:text="@string/been_there"
+                android:textColor="@color/hitam"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:drawableTop="@drawable/sharing"
+                android:text="@string/share"
+                android:textColor="@color/hitam"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/star"
+                android:text="@string/add_review"
+                android:textColor="@color/hitam"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/abu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textSize="20sp"/>
+    <RatingBar
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

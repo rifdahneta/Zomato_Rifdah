@@ -5,5 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="hitam">#2d2d2d</color>
     <color name="putihabu">#f4f4f2</color>
+    <color name="hijau">#4CAF50</color>
+    <color name="putih">#ffffff</color>
+    <color name="abu">#DFDCDC</color>
         
 </resources>

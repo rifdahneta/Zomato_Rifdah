@@ -29,8 +29,6 @@ public class KategoriActivity extends AppCompatActivity {
 
 
     void initData() {
-
-
         String[] judul = res.getStringArray(R.array.judul);
         String[] outlet = res.getStringArray(R.array.outlet);
         String[] deskripsi = res.getStringArray(R.array.deskripsi);
